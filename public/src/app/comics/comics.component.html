@@ -1,0 +1,16 @@
+<div id="wrap">
+  <h4 [routerLink]="['/comics/new']">Add New Comic</h4>
+  <div id="newComic">
+    <router-outlet></router-outlet>
+  </div>
+  <h2>Comics</h2>
+  <p>click to add to your collection</p>
+  <div id="comix-zone">
+    <div *ngFor="let comic of comics" class="comix">
+      <p>{{ comic.name }}</p>
+      <img src="{{ comic.imgUrl }}" alt="">
+      <button>Add</button>
+    </div>
+  </div>
+
+</div>

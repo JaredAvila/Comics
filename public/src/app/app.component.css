@@ -1,0 +1,59 @@
+#wrap{
+    background-color: rgb(49, 49, 49);
+    background: url('https://images-na.ssl-images-amazon.com/images/I/91YWN2-mI6L._SL1500_.jpg');
+    background-size: cover;
+    color: rgb(238, 65, 65);
+    height: 100vh;
+    cursor: default;
+}
+
+h3{
+    width: fit-content;
+    margin: auto;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 24pt;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(238, 65, 65);
+}
+
+#nav-bar img{
+    height: 100px;
+    padding: 10px;
+}
+
+#nav-bar h1{
+    border: 2px solid rgb(238, 65, 65);
+    width: fit-content;
+    margin: 15px;
+    padding: 0 4px;
+    font-family: 'Rationale', sans-serif;
+}
+
+#links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h4{
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 18pt;
+    cursor: pointer;
+    outline: none;
+}
+h4:hover{
+    color: rgb(253, 156, 156);
+}
+h4:active{
+    color: gray;
+}

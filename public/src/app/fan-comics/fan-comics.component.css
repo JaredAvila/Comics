@@ -1,0 +1,18 @@
+button{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+    margin: 5px;
+    outline: none;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    color: black;
+    background-color: rgb(211, 211, 211);
+    padding: 0 5px;
+}

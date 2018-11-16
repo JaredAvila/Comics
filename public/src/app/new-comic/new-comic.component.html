@@ -1,0 +1,8 @@
+<div id="wrap">
+  <h1>Add new comic:</h1>
+  <form (submit)="createComic()">
+    <input type="text" name="newComic.name" [(ngModel)]="newComic.name" placeholder="Comic name">
+    <input type="text" name="newComic.imgUrl" [(ngModel)]="newComic.imgUrl" placeholder="Image Url">
+    <button type="submit">Submit</button>
+  </form>
+</div>

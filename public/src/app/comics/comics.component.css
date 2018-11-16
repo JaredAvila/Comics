@@ -1,0 +1,49 @@
+#wrap{
+    width: 70%;
+    background-color: rgb(47, 47, 47);
+    opacity: .93;
+    margin-left: auto;
+    padding: 25px;
+}
+
+#comix-zone{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* 
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+} */
+
+.comix p{
+    padding: 10px;
+    font-size: 18pt;
+    color: white;
+    text-decoration: underline;
+}
+
+.comix button{
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 25px;
+    font-size: 16pt;
+    font-weight: bold;
+    outline: none;
+}
+
+.comix{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comix img{
+    height: 300px;
+}
+
+h2{
+    color: gray;
+}

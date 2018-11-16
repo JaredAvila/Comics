@@ -1,0 +1,26 @@
+<div id="wrap">
+  <div id="nav-bar">
+    <h4 [routerLink]="['/home/new']">Add New Fan</h4>
+  </div>
+  <div id="showcase">
+    <div id="fans">
+      <table>
+        <tr>
+          <th>Fan</th>
+          <th>Actions</th>
+        </tr>
+        <tr *ngFor="let fan of fans">
+          <td>{{ fan.name }}</td>
+          <td>
+            <button [routerLink]="['/home/comics']">Comic Collection</button>
+            <button [routerLink]="['/home/edit/', fan._id]">Edit</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="router">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+</div>
